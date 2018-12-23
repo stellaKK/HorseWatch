@@ -1,0 +1,39 @@
+html {
+    background-color: #E2E2E2;
+}
+
+@media only screen and (min-width: 600px) {
+    html {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .App{
+        font-family: "Verdana", Sans-serif;
+        display: grid;
+        grid-template-rows: auto 100px auto;
+        color: #818181;
+    }
+
+    p {
+        white-space: pre-line;
+        line-height: 30px;
+    }
+
+    .sub_titles div:hover, .menu div:hover {
+        color: #282626;
+    }
+
+    .underline {
+        border-bottom: 2px solid #F0EFEF;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .App {
+      width: 100%;
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+}
